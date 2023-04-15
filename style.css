@@ -18,6 +18,7 @@ body {
   color: #fff;
   font-family: 'Orbitron', sans-serif;
   background-image: url("./images/bg--palms.jpeg");
+  overflow-y: hidden;
 }
 
 
@@ -51,13 +52,19 @@ h3 {
 
 
 @media (max-width: 480px) {
+
+  .blur-back {
+    width: 80%;
+  }
+
   h1 {
-    /* width: 380px; */
+    /* width: 70%; */
     font-size: 20px;
   }
 
   h3 {
     font-size: 18px;
+    margin-top: 20px;
   }
 }
 
